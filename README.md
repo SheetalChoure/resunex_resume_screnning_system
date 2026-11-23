@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+### 🚀 Resunex – AI-Powered Resume Screening System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Smarter Hiring Starts Here!
 
-## Available Scripts
+Resunex is an AI-powered resume screening system designed to simplify and automate the recruitment process. It helps recruiters filter, analyze, rank, and shortlist candidates based on their skills and job requirements.
 
-In the project directory, you can run:
+Instead of manually reviewing hundreds of resumes, Resunex uses Natural Language Processing (NLP) and intelligent matching techniques to identify the most suitable candidates for a particular job role.
 
-### `npm start`
+**Save up to 80% of screening time and make smarter hiring decisions with Resunex.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Project Overview
 
-### `npm test`
+Resunex automates the initial resume screening process by analyzing uploaded resumes and comparing candidate qualifications with a given job description.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The system extracts relevant information, identifies candidate skills, calculates matching scores, and ranks candidates according to their suitability for the job.
 
-### `npm run build`
+It provides recruiters with a faster and more efficient way to identify potential candidates.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Key Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **🤖 AI Resume Matching:** Automatically matches resumes with job descriptions using intelligent text analysis.
+- **📂 Multiple Resume Upload:** Upload and process multiple resumes simultaneously.
+- **📊 Instant Candidate Ranking:** Ranks candidates based on their matching scores.
+- **🎯 Smart Skill Detection:** Identifies relevant technical and professional skills from resumes.
+- **⚡ Automated Screening:** Reduces manual resume-review efforts.
+- **📈 Match Score:** Displays candidate compatibility scores to support recruitment decisions.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Technology Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Technology | Purpose |
+|---|---|
+| Python | Backend development |
+| Flask | Backend framework and API development |
+| React.js | Frontend development |
+| JavaScript | Frontend functionality |
+| HTML5 | Website structure |
+| CSS3 | Website styling |
+| NLP | Resume text analysis |
+| Machine Learning | Intelligent resume matching |
+| PyPDF2 | PDF text extraction |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## ⚙️ How It Works
 
-## Learn More
+1. **Upload Resumes:** Recruiters upload multiple candidate resumes in PDF format.
+2. **Add Job Description:** Enter the job description and required skills.
+3. **Text Extraction:** The system extracts relevant text and information from uploaded resumes.
+4. **AI Analysis:** NLP techniques analyze candidate information and identify relevant skills.
+5. **Resume Matching:** The system compares resume content with the job description.
+6. **Candidate Ranking:** Candidates are ranked according to their matching scores.
+7. **View Results:** Recruiters can review shortlisted candidates and their matching scores.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+Resunex/
+│
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── uploads/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+│
+├── README.md
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🎯 Project Objectives
 
-### Advanced Configuration
+- Automate the initial resume screening process.
+- Reduce recruiters' manual workload.
+- Improve candidate-job matching.
+- Identify relevant candidate skills efficiently.
+- Make recruitment faster and more organized.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+🔮 Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- AI-powered resume recommendations.
+- Advanced NLP-based candidate analysis.
+- Candidate profile and experience extraction.
+- Email notifications for shortlisted candidates.
+- Recruiter authentication and dashboard.
+- Resume database and screening history.
+- Export candidate reports in PDF and Excel formats.
+- Integration with job portals and recruitment platforms.
 
-### `npm run build` fails to minify
+🌟 Why Resunex?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Traditional recruitment involves reviewing numerous resumes manually, which can be time-consuming and inefficient.
+
+Resunex makes the process smarter by combining automation, NLP, and intelligent candidate matching to help recruiters focus on finding the right talent.
+
+
+<img width="1326" height="601" alt="img1" src="https://github.com/user-attachments/assets/0405722d-8aec-4cff-8b5c-90c41c4b54ec" />
+
+
+<img width="1307" height="507" alt="img2" src="https://github.com/user-attachments/assets/de536464-653e-45ce-88c8-046d71600b02" />
+
+<img width="1306" height="623" alt="img3" src="https://github.com/user-attachments/assets/ec4b46b4-e2cf-4710-94d9-a8169184322d" /> 
+
+
+<img width="1300" height="621" alt="img4" src="https://github.com/user-attachments/assets/93355bb7-b8d8-47a9-b2c2-3323515d1ee4" />
+
+<img width="1317" height="628" alt="img5" src="https://github.com/user-attachments/assets/a518036e-93f5-415a-bc68-963f70529106" />
+
+
+
+
