@@ -1,0 +1,37 @@
+
+.box{
+    margin: 0px;
+    padding: 5px;
+    font-size: 20px;
+    background: linear-gradient(to right, #0f172a, #8ea9f1); 
+    color: white;
+    text-align: left;
+    padding-left: 120px;
+    
+}
+
+
+
+button {
+  padding: 12px 25px;
+  background: #0f172a;
+  border: none;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+input{
+  padding: 12px 25px;
+  background: #0f172a;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 5px;
+  width: 500px;
+  height: 35px;
+}

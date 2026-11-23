@@ -1,0 +1,18 @@
+.about {
+  padding: 70px;
+  text-align: left;
+  font-size: 25px;
+  background: linear-gradient(to right, #0f172a, #8ea9f1); 
+  color: white;
+}
+
+
+.about ul {
+  list-style: circle;
+  padding: 0;
+  text-align: left;
+}
+
+.about li {
+  margin: 10px 0;
+}
